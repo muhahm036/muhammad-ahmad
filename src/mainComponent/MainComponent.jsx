@@ -11,16 +11,16 @@ class MainComponent extends Component {
   render() {
     return (
       <Container fluid className="containerr">
-        <Row>
+        <Row className="m-0">
           <MainHeading />
         </Row>
         <Row>
           <span style={{ marginTop: "2%" }}></span>
-          <Col>
-            <Row>
+          <Col lg="9" sm="9" md="9" xl="9">
+            <Row className="m-0">
               <WorkExperience />
             </Row>
-            <Row>
+            <Row className="m-0">
               <Education />
             </Row>
           </Col>

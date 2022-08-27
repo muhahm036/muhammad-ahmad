@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import { Spinner } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 const MainComponent = React.lazy(() => import("./mainComponent/MainComponent"));
 function App() {
   return (
