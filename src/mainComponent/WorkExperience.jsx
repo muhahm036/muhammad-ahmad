@@ -12,7 +12,7 @@ const WorkExperience = () => {
             SurveyAuto
           </span>
           <span className="darkColor text-bold margin-left-auto">
-            Nov-2020 - Present
+            Nov 2020 - Present
           </span>
         </div>
         <div>
@@ -27,11 +27,22 @@ const WorkExperience = () => {
               monitor key performance metrics.{" "}
             </li>
             <li>
+              Develop web applications for visiualizing data using different
+              APIs of google maps and different type of charts.{" "}
+            </li>
+            <li>
               Frontend Development (
               ReactJs,TypeScript,Redux,ES6,Firebase,Google Map APIs).
             </li>
+            <li>
+              Backend Development (NodeJs,Express,Mongodb,JWT,Firebase
+              Authentication).
+            </li>
             <li>Data Prepration (JSON).</li>
-            <li>Deployments and Files management (AWS S3).</li>
+            <li>
+              Deployment of backend and frontend applications on Amazon EC2, S3
+              and Heroku.
+            </li>
           </ul>
         </div>
       </span>
