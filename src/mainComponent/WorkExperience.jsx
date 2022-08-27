@@ -38,7 +38,7 @@ const WorkExperience = () => {
               Backend Development (NodeJs,Express,Mongodb,JWT,Firebase
               Authentication).
             </li>
-            <li>Data Prepration (JSON).</li>
+            <li>Data Prepration and Reports (JSON,XLSX,CSV).</li>
             <li>
               Deployment of backend and frontend applications on Amazon EC2, S3
               and Heroku.
