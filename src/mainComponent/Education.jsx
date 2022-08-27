@@ -12,7 +12,10 @@ const Education = () => {
             <span>
               Punjab University College of Information and Technology(PUCIT)
             </span>
-            <span className="darkColor text-bold" style={{ marginLeft: "30%" }}>
+            <span
+              className="darkColor text-bold"
+              style={{ marginLeft: "31.4%" }}
+            >
               2016 - 2020
             </span>
           </div>
@@ -28,7 +31,7 @@ const Education = () => {
             style={{ marginLeft: "2%", fontSize: "large" }}
           >
             <span>Punjab College Lahore</span>
-            <span className="darkColor text-bold" style={{ marginLeft: "67%" }}>
+            <span className="darkColor text-bold" style={{ marginLeft: "69%" }}>
               2014 - 2016
             </span>
           </div>
