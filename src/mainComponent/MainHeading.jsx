@@ -11,13 +11,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 const MainHeading = () => {
   return (
     <div className="border-bottom-fRow display-flexx margin-oneTP">
-      <Col lg="5">
+      <Col lg="5" sm="5" md="5" xl="5">
         <span>
           <h1 className="muhammad-ahmad">Muhammad Ahmad</h1>
           <h4 className="soft-eng">Software Engineer</h4>
         </span>
       </Col>
-      <Col lg="7">
+      <Col lg="7" sm="7" md="7" xl="7">
         <span>
           <h4 className="soft-eng">
             <FontAwesomeIcon

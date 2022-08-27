@@ -18,7 +18,7 @@ class MainComponent extends Component {
           <Col>
             <WorkExperience />
           </Col>
-          <Col lg="3"></Col>
+          <Col lg="3" sm="3" md="3" xl="3"></Col>
         </Row>
       </Container>
     );
