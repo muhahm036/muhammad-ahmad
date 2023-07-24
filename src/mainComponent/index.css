@@ -1,37 +1,58 @@
 .muhammad-ahmad {
-  font-weight: bold !important;
+	font-weight: bold !important;
 
-  margin-left: 5%;
-  color: #4b0082 !important;
+	/* margin-left: 5%; */
+	color: #4b0082 !important;
 }
 .soft-eng {
-  margin-left: 5%;
-  color: #4b0082 !important;
+	/* margin-left: 5%; */
+	color: #4b0082 !important;
 }
-.containerr {
-  background-color: aliceblue;
+.soft-eng.center {
+	display: flex;
+	align-items: center;
+}
+.soft-eng.linkedin {
+	word-break: break-all;
+}
+
+body {
+	background-color: aliceblue;
 }
 .border-bottom-fRow {
-  border-bottom: 3px solid #9683ec;
+	border-bottom: 3px solid #9683ec;
+}
+.vl {
+	border-right: 3px solid #9683ec;
+	height: 500px;
 }
 .display-flexx {
-  display: flex !important;
+	display: flex !important;
 }
 .margin-oneTP {
-  margin-top: 1% !important;
+	margin-top: 1% !important;
 }
 .work-exp {
-  margin-left: 3%;
+	margin-left: 3%;
 }
 .darkColor {
-  color: #4b0082 !important;
+	color: #4b0082 !important;
 }
 .text-bold {
-  font-weight: bold !important;
+	font-weight: bold !important;
 }
 .width {
-  width: 100% !important;
+	width: 100% !important;
 }
 .margin-left-auto {
-  margin-left: auto !important;
+	margin-left: auto !important;
+}
+.margin-left-Forty {
+	margin-left: 40px !important;
+}
+.container-border {
+	border: 15px solid #8788f5 !important;
+}
+.primary-color {
+	color: "#9683ec" !important;
 }
