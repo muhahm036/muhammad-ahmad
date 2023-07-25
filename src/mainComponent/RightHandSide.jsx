@@ -1,9 +1,51 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 import { Tag } from "antd";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FaLinkedinIn } from "react-icons/fa";
 const RightHandSide = () => {
 	return (
 		<div className="work-exp mob-view-list">
+			<div>
+				<h3 className="darkColor text-bold">Information</h3>
+				<div class="d-flex flex-column">
+					<span>
+						<h4 className="soft-eng center">
+							<FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "3%" }} />
+							<span> Military Accounts Society, College Road, Lahore Pakistan</span>
+						</h4>
+					</span>
+					<span>
+						<h4 className="soft-eng center">
+							<FontAwesomeIcon icon={faPhone} style={{ marginRight: "2%" }} />
+							<span>0092&nbsp;3324674645</span>
+						</h4>
+					</span>
+					<span>
+						<h4 className="soft-eng center">
+							<FontAwesomeIcon icon={faEnvelope} style={{ marginRight: "2%" }} />
+							<span>muhahm036@gmail.com</span>
+						</h4>
+					</span>
+					<span>
+						<h4 className="soft-eng  linkedin">
+							<FaLinkedinIn style={{ marginRight: "2%", marginBottom: "6px" }} />
+							{/* <a href="https://pk.linkedin.com/in/muhammad-ahmad-406431190">
+              https://pk.linkedin.com/in/muhammad-ahmad-406431190
+            </a> */}
+							<span
+								style={{ cursor: "pointer" }}
+								onClick={() => {
+									window.open("https://pk.linkedin.com/in/muhammad-ahmad-406431190", "_blank");
+								}}
+							>
+								https://pk.linkedin.com/in/muhammad-ahmad-406431190
+							</span>
+						</h4>
+					</span>
+				</div>
+			</div>
 			<div>
 				<h3 className="darkColor text-bold ">Skills</h3>
 				<Row>

@@ -17,7 +17,7 @@ const Education = () => {
 						Bachelor's In Computer Science
 					</span>
 				</div>
-				<div className="darkColor text-bold d-flex">
+				{/* <div className="darkColor text-bold d-flex">
 					<div style={{ marginLeft: "2%", fontSize: "large" }}>Punjab College Lahore</div>
 					<div className="margin-left-auto">2014 - 2016</div>
 				</div>
@@ -25,7 +25,7 @@ const Education = () => {
 					<span className="darkColor " style={{ marginLeft: "2%" }}>
 						Intermdiate in Computer Science
 					</span>
-				</div>
+				</div> */}
 			</span>
 		</div>
 	);

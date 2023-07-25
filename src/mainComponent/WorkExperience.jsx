@@ -1,17 +1,17 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 const WorkExperience = () => {
 	return (
 		<div className="work-exp">
 			<h3 className="darkColor text-bold">Work Experience</h3>
 			<div className="darkColor text-bold d-flex">
 				<div style={{ marginLeft: "2%", fontSize: "large" }}>
-					<span
-						style={{ cursor: "pointer" }}
-						onClick={() => {
-							window.open("https://aiSight.ai", "_blank");
-						}}
-					>
+					<span>
 						aiSight.ai (formaly SurveyAuto)
+						<a style={{ cursor: "pointer" }} className="mx-2" target="_blank" href="https://aisight.ai/">
+							<FontAwesomeIcon icon={faUpRightFromSquare} className="darkColor" />
+						</a>
 					</span>
 				</div>
 				<div className="margin-left-auto">Nov 2020 - Present</div>

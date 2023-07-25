@@ -7,6 +7,7 @@ import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import RightHandSide from "./RightHandSide";
 import Summary from "./Summary";
+import Projects from "./Projects";
 
 class MainComponent extends Component {
 	state = {};
@@ -16,17 +17,25 @@ class MainComponent extends Component {
 				<Row className="m-0 py-3 border-bottom-fRow">
 					<MainHeading />
 				</Row>
-				{/* <hr className="border-bottom-fRow" /> */}
-				{/* <Row className="m-0 ">
-        </Row> */}
+
 				<Row className="m-0 py-3">
-					<Col className="vl" xl="9" lg="12" md="12" sm="12">
-						<Summary />
-						<WorkExperience />
-						<Education />
-						{/* <div className=""></div> */}
+					<Col className="vl" xl="9" lg="9" md="12" sm="12">
+						<div class="d-flex flex-column">
+							<div>
+								<Summary />
+							</div>
+							<div>
+								<WorkExperience />
+							</div>
+							<div>
+								<Projects />
+							</div>
+							<div>
+								<Education />
+							</div>
+						</div>
 					</Col>
-					<Col xl="3" lg="12" md="12" sm="12">
+					<Col xl="3" lg="9" md="12" sm="12">
 						<RightHandSide />
 					</Col>
 				</Row>

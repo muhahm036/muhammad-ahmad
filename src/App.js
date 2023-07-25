@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
-import { Routes, BrowserRouter, Route } from "react-router-dom";
+import { Routes, BrowserRouter,Route } from "react-router-dom";
 import { Spinner } from "reactstrap";
+import CustomRouterComp from "./CustomRouterComp";
 const MainComponent = React.lazy(() => import("./mainComponent/MainComponent"));
 function App() {
 	return (
@@ -16,7 +17,8 @@ function App() {
 					}
 				>
 					<Routes>
-						<Route exact path="/" element={<MainComponent />} />
+						{/* <Route exact path="/" element={<MainComponent />} /> */}
+						<Route exact path="/" element={<CustomRouterComp  component={MainComponent} />} />
 					</Routes>
 				</Suspense>
 			</BrowserRouter>
