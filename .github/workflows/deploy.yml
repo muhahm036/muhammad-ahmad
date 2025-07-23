@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # or master if your main branch is named that
+permissions:
+  contents: write  # 👈 This is required for GitHub Actions to push
 
 jobs:
   build-and-deploy:
